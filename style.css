@@ -1,0 +1,62 @@
+/*First @media for Small:*/
+@media screen and (max-width: 479px) {
+   #small {
+      background-color:#D13E3E ;
+      display: block;
+   } 
+   #medium, #large{
+      display: block;
+   }
+}
+
+/*2nd @media for Medium:*/
+@media  screen and (min-width: 479px) and (max-width: 1023px) {
+   #small{
+      display: block;
+      float: left;
+      width: 66%;
+   }
+   #medium {
+      background-color: #1D774F;
+      display: block;
+      float: right;
+      width: 33%;
+   }
+   #large{
+      display: block;
+      float: inline-end;
+      width: 100%;
+   }
+}
+
+/*3rd @media for Large:*/
+@media screen and (min-width: 1024px) {
+   #small{
+      display: block;
+      float: left;
+      width: 30%;
+   }
+
+   #medium{
+      display: block;
+      float: right;
+      width: 30%;
+   }
+
+
+   #large{
+      background-color: #2F4070;
+      display: block;
+      float: right;
+      width: 35%;
+   }
+
+
+
+
+   
+}
+
+
+
+ 
